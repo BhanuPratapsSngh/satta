@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="106011" started-at="2023-05-11T15:01:18 IST" finished-at="2023-05-11T15:03:04 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="106011" started-at="2023-05-11T15:01:18 IST" finished-at="2023-05-11T15:03:04 IST">
+      <class name="testphhase.Homepage_testphase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testphhase.Homepage_testphase@1a1d6a08]" name="initialize" is-config="true" duration-ms="18121" started-at="2023-05-11T15:01:00 IST" finished-at="2023-05-11T15:01:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="start()[pri:0, instance:testphhase.Homepage_testphase@1a1d6a08]" name="start" is-config="true" duration-ms="238" started-at="2023-05-11T15:01:18 IST" finished-at="2023-05-11T15:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="logo()[pri:0, instance:testphhase.Homepage_testphase@1a1d6a08]" name="logo" duration-ms="280" started-at="2023-05-11T15:01:19 IST" finished-at="2023-05-11T15:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method status="PASS" signature="titleconfo()[pri:0, instance:testphhase.Homepage_testphase@1a1d6a08]" name="titleconfo" duration-ms="54" started-at="2023-05-11T15:01:19 IST" finished-at="2023-05-11T15:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleconfo -->
+        <test-method status="PASS" signature="blogmenu()[pri:1, instance:testphhase.Homepage_testphase@1a1d6a08]" name="blogmenu" duration-ms="14824" started-at="2023-05-11T15:01:19 IST" finished-at="2023-05-11T15:01:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogmenu -->
+        <test-method status="PASS" signature="linkcountsinffoter()[pri:1, instance:testphhase.Homepage_testphase@1a1d6a08]" name="linkcountsinffoter" duration-ms="2097" started-at="2023-05-11T15:01:34 IST" finished-at="2023-05-11T15:01:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkcountsinffoter -->
+        <test-method status="PASS" signature="pokerclick()[pri:1, instance:testphhase.Homepage_testphase@1a1d6a08]" name="pokerclick" duration-ms="9593" started-at="2023-05-11T15:01:36 IST" finished-at="2023-05-11T15:01:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pokerclick -->
+        <test-method status="PASS" signature="teenpaticlick()[pri:2, instance:testphhase.Homepage_testphase@1a1d6a08]" name="teenpaticlick" duration-ms="3609" started-at="2023-05-11T15:01:45 IST" finished-at="2023-05-11T15:01:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teenpaticlick -->
+        <test-method status="PASS" signature="rummymenu()[pri:3, instance:testphhase.Homepage_testphase@1a1d6a08]" name="rummymenu" duration-ms="8245" started-at="2023-05-11T15:01:49 IST" finished-at="2023-05-11T15:01:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rummymenu -->
+        <test-method status="PASS" signature="blackjackmenu()[pri:4, instance:testphhase.Homepage_testphase@1a1d6a08]" name="blackjackmenu" duration-ms="8911" started-at="2023-05-11T15:01:57 IST" finished-at="2023-05-11T15:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blackjackmenu -->
+        <test-method status="PASS" signature="contactusmenu()[pri:5, instance:testphhase.Homepage_testphase@1a1d6a08]" name="contactusmenu" duration-ms="9960" started-at="2023-05-11T15:02:06 IST" finished-at="2023-05-11T15:02:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactusmenu -->
+        <test-method status="PASS" signature="eulamenu()[pri:6, instance:testphhase.Homepage_testphase@1a1d6a08]" name="eulamenu" duration-ms="10907" started-at="2023-05-11T15:02:16 IST" finished-at="2023-05-11T15:02:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eulamenu -->
+        <test-method status="PASS" signature="legalitymenu()[pri:7, instance:testphhase.Homepage_testphase@1a1d6a08]" name="legalitymenu" duration-ms="6094" started-at="2023-05-11T15:02:27 IST" finished-at="2023-05-11T15:02:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- legalitymenu -->
+        <test-method status="PASS" signature="cookiepolicymenu()[pri:8, instance:testphhase.Homepage_testphase@1a1d6a08]" name="cookiepolicymenu" duration-ms="5801" started-at="2023-05-11T15:02:33 IST" finished-at="2023-05-11T15:02:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiepolicymenu -->
+        <test-method status="PASS" signature="privacypolicymenu()[pri:9, instance:testphhase.Homepage_testphase@1a1d6a08]" name="privacypolicymenu" duration-ms="4369" started-at="2023-05-11T15:02:39 IST" finished-at="2023-05-11T15:02:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacypolicymenu -->
+        <test-method status="PASS" signature="Sequritymenu()[pri:10, instance:testphhase.Homepage_testphase@1a1d6a08]" name="Sequritymenu" duration-ms="5105" started-at="2023-05-11T15:02:43 IST" finished-at="2023-05-11T15:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sequritymenu -->
+        <test-method status="PASS" signature="TOUmenu()[pri:11, instance:testphhase.Homepage_testphase@1a1d6a08]" name="TOUmenu" duration-ms="4074" started-at="2023-05-11T15:02:48 IST" finished-at="2023-05-11T15:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TOUmenu -->
+        <test-method status="PASS" signature="englishmenu()[pri:12, instance:testphhase.Homepage_testphase@1a1d6a08]" name="englishmenu" duration-ms="11391" started-at="2023-05-11T15:02:53 IST" finished-at="2023-05-11T15:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- englishmenu -->
+        <test-method status="PASS" signature="end()[pri:0, instance:testphhase.Homepage_testphase@1a1d6a08]" name="end" is-config="true" duration-ms="397" started-at="2023-05-11T15:03:04 IST" finished-at="2023-05-11T15:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- testphhase.Homepage_testphase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

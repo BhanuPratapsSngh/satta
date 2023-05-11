@@ -1,0 +1,4 @@
+# Created at 2023-05-11T15:00:59.689
+Boot Manifest-JAR contains absolute paths in classpath 'D:\sali\Satta\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

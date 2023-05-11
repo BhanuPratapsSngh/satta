@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testphhase.Homepage_testphase
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 125.249 s - in testphhase.Homepage_testphase

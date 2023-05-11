@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testphhase.Homepage_testphase" time="125.249" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\sali\Satta\target\test-classes;D:\sali\Satta\target\classes;C:\Users\bpsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\bpsingh\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\bpsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\bpsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bpsingh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bpsingh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\bpsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\bpsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\bpsingh\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\bpsingh\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bpsingh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\bpsingh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\bpsingh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\bpsingh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\bpsingh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\bpsingh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\bpsingh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\bpsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\bpsingh\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\bpsingh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\bpsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\bpsingh\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\bpsingh\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\bpsingh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\bpsingh\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\bpsingh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\bpsingh\AppData\Local\Temp\surefire1706007597683649474\surefirebooter3951152763431059886.jar C:\Users\bpsingh\AppData\Local\Temp\surefire1706007597683649474 2023-05-11T15-00-59_083-jvmRun1 surefire2624427011086254945tmp surefire_03870449400658947338tmp"/>
+    <property name="surefire.test.class.path" value="D:\sali\Satta\target\test-classes;D:\sali\Satta\target\classes;C:\Users\bpsingh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\bpsingh\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\bpsingh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\bpsingh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bpsingh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bpsingh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bpsingh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\bpsingh\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\bpsingh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\bpsingh\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\bpsingh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\bpsingh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\bpsingh\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bpsingh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\bpsingh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\bpsingh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\bpsingh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\bpsingh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\bpsingh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\bpsingh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\bpsingh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\bpsingh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\bpsingh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\bpsingh\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\bpsingh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\bpsingh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\bpsingh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\bpsingh\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\bpsingh\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\bpsingh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\bpsingh\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\bpsingh\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\bpsingh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\bpsingh\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\bpsingh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bpsingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
+    <property name="basedir" value="D:\sali\Satta"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.66.0.15-CA-win64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\bpsingh\AppData\Local\Temp\surefire1706007597683649474\surefirebooter3951152763431059886.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="user.name" value="bpsingh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bpsingh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bpsingh\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="user.dir" value="D:\sali\Satta"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\bpsingh\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\bpsingh\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files\Zulu\zulu-8\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.7;C:\Program Files\apache-maven-3.8.7\bin;C:\Users\bpsingh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Program Files\apache-maven-3.8.7;C:\Program Files\apache-maven-3.8.7\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="logo" classname="testphhase.Homepage_testphase" time="0.262">
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+1683797461421	geckodriver	INFO	Listening on 127.0.0.1:25512
+1683797462436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "33202" "--remote ... calhost:33202/,http://[::1]:33202/" "-no-remote" "-profile" "C:\\Users\\bpsingh\\AppData\\Local\\Temp\\rust_mozprofileBJuySD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683797463086	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683797463092	Marionette	INFO	Listening on port 49364
+Read port: 49364
+WebDriver BiDi listening on ws://127.0.0.1:33202
+1683797463299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bpsingh\\AppData\\Local\\Temp\\rust_mozprofileBJuySD\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:33202/devtools/browser/60b45725-fe44-421e-ad79-a0379b4859d3
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="titleconfo" classname="testphhase.Homepage_testphase" time="0.053"/>
+  <testcase name="blogmenu" classname="testphhase.Homepage_testphase" time="14.832">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/newblogtheme-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: stLight is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: ReferenceError: checkAnchorClick is not defined
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: TypeError: vlib1 is null
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: TypeError: vlib1 is null
+1683797484595	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484626	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484646	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484689	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484693	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484708	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484740	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484741	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484745	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484763	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484764	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484787	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484792	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1683797484798	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6400024037310572, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=119
+JavaScript error: https://teenpatti.gamentio.com/blog, line 1: TypeError: window.parent.document.getElementsByClassName(...)[0] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A6DkqFxHDGl7nKslapf_JwSgNLk5S51nxKr2xdQhtdg.js line 2 > eval line 6234 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="linkcountsinffoter" classname="testphhase.Homepage_testphase" time="2.089"/>
+  <testcase name="pokerclick" classname="testphhase.Homepage_testphase" time="9.601">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://poker.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://poker.gamentio.com/, line 1340: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://poker.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://poker.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://poker.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="teenpaticlick" classname="testphhase.Homepage_testphase" time="3.613">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="rummymenu" classname="testphhase.Homepage_testphase" time="8.239">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://rummy.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://rummy.gamentio.com/, line 1419: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://rummy.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://rummy.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rummy.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="blackjackmenu" classname="testphhase.Homepage_testphase" time="8.916">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://blackjack.gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://blackjack.gamentio.com/, line 862: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://blackjack.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://blackjack.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://blackjack.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="contactusmenu" classname="testphhase.Homepage_testphase" time="9.971">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://gamentio.com/lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://gamentio.com/contact-us, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="eulamenu" classname="testphhase.Homepage_testphase" time="10.899">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/gamentioeula, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="legalitymenu" classname="testphhase.Homepage_testphase" time="6.094">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/gamentiolegal, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="cookiepolicymenu" classname="testphhase.Homepage_testphase" time="5.805">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/cookie-policy, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="privacypolicymenu" classname="testphhase.Homepage_testphase" time="4.367">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript warning: https://teenpatti.gamentio.com/lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://teenpatti.gamentio.com/gamentioPP, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="Sequritymenu" classname="testphhase.Homepage_testphase" time="5.105">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript error: https://teenpatti.gamentio.com/gamentiosecuritynint, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="TOUmenu" classname="testphhase.Homepage_testphase" time="4.076">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+JavaScript error: https://teenpatti.gamentio.com/gamentiotou, line 1: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="englishmenu" classname="testphhase.Homepage_testphase" time="11.39">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://teenpatti.gamentio.com."
+1683797576567	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://gamentio.com/new-lsvegas-theme/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://gamentio.com/, line 807: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A6DkqFxHDGl7nKslapf_JwSgNLk5S51nxKr2xdQhtdg.js line 2 > eval line 628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://teenpatti.gamentio.com/, line 1185: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://teenpatti.gamentio.com/new-lsvegas-theme/js/app.js, line 14: ReferenceError: particlesJS is not defined
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1036: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://teenpatti.gamentio.com/new-lsvegas-theme/js/fingerprint2.min.js, line 1067: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+</testsuite>
