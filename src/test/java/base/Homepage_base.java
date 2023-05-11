@@ -44,7 +44,8 @@ public class Homepage_base {
 	}
 	public static void startTest()
 	{
-	report = new ExtentReports("C:\\Users\\bpsingh\\.jenkins\\workspace\\bhanu\\homereport.html",true);
+//	report = new ExtentReports("C:\\Users\\bpsingh\\.jenkins\\workspace\\bhanu\\homereport.html",true);
+	report = new ExtentReports("D:\\sali\\Satta\\homereport.html",true);
 	}
 
 	public static void endTest()
