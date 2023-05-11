@@ -88,7 +88,7 @@ public class Homepgae_actions extends Homepage_base {
 			Thread.sleep(2000);
 			test = report.startTest("Verify the rummy menus present in footer direct to correct URL");
 			if((driver.getCurrentUrl())==("https://rummy.gamentio.com/")) {
-				test.log(LogStatus.PASS, "YES ,by clciking rummy menu it direct to the correct URL");
+				test.log(LogStatus.PASS, "YES ,by clciking rummy menu it direct to to the correct URL");
 			}
 			else {
 				test.log(LogStatus.FAIL, "YES ,by clciking rummy menu it does not  direct to the correct URL");
