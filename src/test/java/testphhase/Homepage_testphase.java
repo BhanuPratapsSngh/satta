@@ -58,7 +58,7 @@ public class Homepage_testphase extends Homepage_base{
 	public void rummymenu() throws InterruptedException {
 		actions_home.a_rummy_footermenu();
 		//-----------------------------
-		System.out.println("bhanu")
+		System.out.println("bhanu");
 	}
 	@Test(priority=4)
 	public void blackjackmenu() throws InterruptedException {
