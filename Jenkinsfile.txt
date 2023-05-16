@@ -1,0 +1,9 @@
+pipeline{
+stages{
+stage(b1){
+steps{
+echo "bb"
+}
+}
+}
+}
