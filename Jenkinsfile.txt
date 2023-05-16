@@ -1,9 +1,19 @@
-pipeline{
-stages{
-stage(b1){
-steps{
-echo "bb"
-}
-}
-}
+pipeline {
+  agent any
+
+  stages {
+    
+
+    stage('Build') {
+      steps {
+       build job:"gamentio"
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+       build job:"gamentiodeploy"
+      }
+    }
+  }
 }
